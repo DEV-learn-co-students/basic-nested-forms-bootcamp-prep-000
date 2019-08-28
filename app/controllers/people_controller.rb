@@ -1,5 +1,6 @@
 class PeopleController < ApplicationController
   def new
+    puts "NICEEEEE"
     @person = Person.new
   end
 
